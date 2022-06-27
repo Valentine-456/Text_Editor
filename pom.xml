@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>editor.text_editor/editor.text_editor.HelloApplication</mainClass>
+                            <mainClass>editor.text_editor/editor.text_editor.Application</mainClass>
                         </configuration>
                     </execution>
                 </executions>
