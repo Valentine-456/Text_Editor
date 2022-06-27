@@ -18,6 +18,10 @@ public class Application extends javafx.application.Application {
         stage.getIcons().add(new Image("file:src/main/resources/editor/text_editor/icon.png"));
         stage.setScene(scene);
         stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("ESC"));
+
+        Controller controller = fxmlLoader.getController();
+        controller.setStage(stage);
+
         stage.show();
     }
 
